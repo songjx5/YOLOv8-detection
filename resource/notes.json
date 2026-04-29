@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "box"
+    },
+    {
+      "id": 1,
+      "name": "breakage"
+    },
+    {
+      "id": 2,
+      "name": "deviation"
+    },
+    {
+      "id": 3,
+      "name": "fold"
+    },
+    {
+      "id": 4,
+      "name": "normal"
+    },
+    {
+      "id": 5,
+      "name": "stain"
+    }
+  ],
+  "info": {
+    "year": 2026,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
