@@ -10,14 +10,14 @@ data_yaml = os.path.join(project_root, "resource", "data.yaml")
 
 def main():
     # 加载预训练模型
-    model = YOLO("yolo26n.pt")
+    model = YOLO(r"D:\project\Python\YOLO_code\runs\detect\train-3\weights\best.pt")
 
     # 训练
     results = model.train(
         data=data_yaml,
-        epochs=50,  # 提高到 200 轮
+        epochs=10,  # 提高到 200 轮
         patience=0,  # 【关键】设为 0，禁用自动停止，必须跑满 200 轮
-        batch=8,  # 4060 显卡可以跑 8 或 16
+        batch=16,  # 4060 显卡可以跑 8 或 16
         imgsz=640,
         device=0,
         workers=0,  # 【关键修改】将 workers 改为 0，解决内存持续增大问题

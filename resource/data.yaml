@@ -1,16 +1,11 @@
-# data.yaml
-path: D:/project/Python/YOLO_code/resource
-
-train: images/train     # 相对 path 的子路径
-val:   images/val       # 同上
-
-# 可选 test: images/test
-
-nc: 6                 # 你标注的类别数量（比如只一个“能效标签”就是1）
+path: D:\project\Python\YOLO_code\resource
+train: images/train
+val: images/val
+nc: 6
 names:
-  0: box
-  1: breakage
-  2: deviation
-  3: fold
-  4: normal
-  5: stain                    # 如果多个类： ['label1', 'label2']
+- energy_arrow
+- label
+- box
+- stain
+- fold
+- brakeage

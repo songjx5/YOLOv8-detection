@@ -2,27 +2,43 @@
   "categories": [
     {
       "id": 0,
-      "name": "box"
+      "name": "01-grade1"
     },
     {
       "id": 1,
-      "name": "breakage"
+      "name": "02-grade2"
     },
     {
       "id": 2,
-      "name": "deviation"
+      "name": "03-grade3"
     },
     {
       "id": 3,
-      "name": "fold"
+      "name": "04-grade4"
     },
     {
       "id": 4,
-      "name": "normal"
+      "name": "05-grade5"
     },
     {
       "id": 5,
-      "name": "stain"
+      "name": "06-label"
+    },
+    {
+      "id": 6,
+      "name": "07-box"
+    },
+    {
+      "id": 7,
+      "name": "08-stain"
+    },
+    {
+      "id": 8,
+      "name": "09-fold"
+    },
+    {
+      "id": 9,
+      "name": "10-brakeage"
     }
   ],
   "info": {

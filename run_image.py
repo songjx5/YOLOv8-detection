@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 project_root = Path(__file__).resolve().parent
 model_path = project_root / "runs" / "detect" / "train" / "weights" / "best.pt"
-test_image_path = project_root / "resource" / "images" / "val" / "breakage_13.jpg"
+test_image_path = project_root / "resource" / "images" / "val" / "dd396540-A02_L5_T03_STA_004.jpg"
 predict_name = "predict_image"
 
 

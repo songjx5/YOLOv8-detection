@@ -1,6 +1,10 @@
-box
-breakage
-deviation
-fold
-normal
-stain
+01-grade1
+02-grade2
+03-grade3
+04-grade4
+05-grade5
+06-label
+07-box
+08-stain
+09-fold
+10-brakeage
